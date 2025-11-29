@@ -1,0 +1,100 @@
+{
+  "version": "1.1.0",
+  "name": "iso-29110-templates",
+  "description": "ISO/IEC 29110-5-1-2 Basic Profile Documentation Templates",
+  "lastUpdated": "2025-11-29",
+  "maintainer": "Foxbith Team",
+  "repository": "https://github.com/Foxbith/zoo-strategy",
+  "templatePath": "02-declared-intent/templates/iso-29110",
+  "compliance": {
+    "standard": "ISO/IEC 29110-5-1-2",
+    "profile": "Basic Profile",
+    "targetAudience": "Very Small Entities (VSEs)"
+  },
+  "fileTypes": {
+    "single": "One file per project, updated over time (e.g., test-plan.md)",
+    "iteration": "One file per occurrence with date/version (e.g., sprint-29Nov2025.md)",
+    "split": "One file per item with ID prefix (e.g., FR-001-user-login.md)"
+  },
+  "phases": {
+    "00-assets": {
+      "name": "Project Assets",
+      "templates": {
+        "README.md": { "type": "single" },
+        "images/.gitkeep": { "type": "single" },
+        "documents/.gitkeep": { "type": "single" },
+        "diagrams/.gitkeep": { "type": "single" }
+      }
+    },
+    "01-planning": {
+      "name": "Project Planning",
+      "templates": {
+        "contracts/_template.md": { "type": "iteration", "pattern": "SOW-phase{N}-{DATE}.md" },
+        "project-plans/_template.md": { "type": "iteration", "pattern": "plan-phase{N}-{NAME}.md" },
+        "meeting-record/_template.md": { "type": "iteration", "pattern": "YYYY-MM-DD.md" },
+        "progress-tracking/_template.md": { "type": "iteration", "pattern": "sprint-{DATE}.md" },
+        "change-requests/_template.md": { "type": "split", "pattern": "CR-{XXX}-{name}.md" },
+        "scope-definitions/_template.md": { "type": "iteration", "pattern": "scope-phase{N}-{TYPE}.md" },
+        "correction-register.md": { "type": "single" },
+        "raci-matrix.md": { "type": "single" }
+      }
+    },
+    "02-requirements": {
+      "name": "Requirements Analysis",
+      "templates": {
+        "specifications/functional-requirements/_template.md": { "type": "split", "pattern": "FR-{XXX}-{name}.md" },
+        "specifications/interface-requirements/_template.md": { "type": "split", "pattern": "INT-{XXX}-{name}.md" },
+        "specifications/non-functional-requirements/_template.md": { "type": "split", "pattern": "NFR-{XXX}-{name}.md" },
+        "traceability-matrix.md": { "type": "single" }
+      }
+    },
+    "03-design": {
+      "name": "Software Design",
+      "templates": {
+        "software-design/01-system-context.md": { "type": "single" },
+        "software-design/02-container-architecture.md": { "type": "single" },
+        "software-design/design-decisions/_template.md": { "type": "split", "pattern": "ADR-{XXX}-{name}.md" },
+        "software-design/api-design/_template.yaml": { "type": "split", "pattern": "{service}-api.yaml" },
+        "ux-ui-design/01-design-overview.md": { "type": "single" },
+        "ux-ui-design/02-branding-guidelines.md": { "type": "single" },
+        "ux-ui-design/03-design-system.md": { "type": "single" },
+        "ux-ui-design/04-information-architecture.md": { "type": "single" },
+        "ux-ui-design/05-accessibility.md": { "type": "single" },
+        "ux-ui-design/personas/_template.md": { "type": "split", "pattern": "PER-{XXX}-{name}.md" },
+        "ux-ui-design/screens/_template.md": { "type": "split", "pattern": "SCR-{XXX}-{name}.md" },
+        "ux-ui-design/user-flows/_template.md": { "type": "split", "pattern": "UF-{XXX}-{name}.md" },
+        "infrastructure/01-repository-structure.md": { "type": "single" },
+        "infrastructure/02-secrets-management.md": { "type": "single" },
+        "infrastructure/03-ci-cd-pipelines.md": { "type": "single" },
+        "infrastructure/04-developer-onboarding.md": { "type": "single" }
+      }
+    },
+    "04-development": {
+      "name": "Development & Integration",
+      "templates": {
+        "coding-standards.md": { "type": "single" },
+        "code-review/_template.md": { "type": "iteration", "pattern": "review-{DATE}-{name}.md" },
+        "verification/_template.md": { "type": "iteration", "pattern": "verification-v{VERSION}.md" }
+      }
+    },
+    "05-quality": {
+      "name": "Quality Assurance",
+      "templates": {
+        "test-plan.md": { "type": "single" },
+        "test-cases/_template.md": { "type": "split", "pattern": "TC-{XXX}-{name}.md" },
+        "test-reports/_template.md": { "type": "iteration", "pattern": "test-report-v{VERSION}.md" },
+        "validation/_template.md": { "type": "iteration", "pattern": "validation-v{VERSION}.md" }
+      }
+    },
+    "06-support": {
+      "name": "Delivery & Support",
+      "templates": {
+        "operation-guide.md": { "type": "single" },
+        "maintenance-guide.md": { "type": "single" },
+        "acceptance/_template.md": { "type": "iteration", "pattern": "acceptance-{MILESTONE}.md" },
+        "delivery/_template.md": { "type": "iteration", "pattern": "delivery-v{VERSION}.md" },
+        "release-notes/_template.md": { "type": "iteration", "pattern": "v{VERSION}.md" }
+      }
+    }
+  }
+}
