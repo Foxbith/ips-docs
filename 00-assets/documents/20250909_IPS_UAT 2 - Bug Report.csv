@@ -1,0 +1,202 @@
+,Type,,Feature,Desciption,Link/Screenshot,Expected Result,Priority,Status,QA,Done date,ชี้แจงปัญหา,เพิ่มเติม,recheck DEV,recheck STG
+2025/09/24,Bug,,Employee/workload,"at Academin detail in                                                   year 2025 Start 01/Mar/2025
+Year 2026 start 04/Jan/2026",workload.mp4,,1) High,Done,pass,,"เคสนี้บันทึกได้ปกติค่ะ
+https://www.loom.com/share/9bd344a2e2ad4661bd7aeb3fc764da22?sid=c2ff260f-2b13-4326-b1ca-e09a1ab14b13",รบกวนเช็คที่ปี 2025 ครับ มันไม่ได้เริ่มจากวันที่ 01/jan/2025 แต่ทาง foxbith เลือกจากปี 2027 นะครับ ,aum : pass,
+2025/09/24,Bug,,Setting/Academic Setting,ไม่สามารถ set เพื่อตั้งปีการศึกษาใหม่ได้ กด Save แล้ว Error,gear Add Academic.jpg,,1) High,Done,pass,,เคสนี้เลข academic end date เป็นปี 26,วันที่เริ่มคือ 14 สิงหาคม 25 สิ้นสุดปีการศึกษา19 มิถุนายน 2026 ครับ,aum : pass,
+2025/09/24,Bug,,Setting/Permission,ไม่สามารถ save ได้,permission.jpg,,1) High,Done,pass,,"เคสนี้บันทึกได้ปกติค่ะ
+https://www.loom.com/share/2a126f17a74846448a56a220ecd36d76?sid=52d28192-f2e7-4072-bc08-9d96dcb33d6d",,aum : pass,
+2025/09/24,Bug,,Education/ทั้งหมด,ไม่สามารถสร้างอะไรได้เลยครับ,after School.mp4,,1) High,Done,pass,,,,aum : pass,
+2025/09/24,Bug,,Asset ,ไม่สามารถสร้างอะไรได้เลยครับ,Asset.mp4,,1) High,Done,pass,,"เคสนี้บันทึกได้ปกติค่ะ
+https://www.loom.com/share/4a44d8b8494f4d1c8af6791f780b801f?sid=2b0d11ec-9673-4ed6-88dc-2003f7d7f49f
+
+แบบทุก Function
+https://www.loom.com/share/3653104b81884e3386f0f37b3075e0f5?sid=4272c3ae-37df-4225-8115-78110d0008e1",,aum : pass,
+2025/09/25,Bug,,gear/company Setting ,ในตอนที่กำลังกรอกข้อมูลของโรงเรียน ทิ้งไว้สักพักเด้งไปใช้ค่าเดิม,School setting.mp4,,1) High,Done,pass,,,,aum : pass,
+2022/09/27,Bug,,form/Purchasing Form,ไม่สามารถใส่ชื่อสินค้าได้,Purchease form.mp4https://drive.google.com/file/d/1h5JdIr2oHdBFgK35QKQHkREMUWu5x2Qe/view?usp=drive_link,,1) High,Done,pass,,เป็น bug,เส้น search ทำงานไม่ถูกต้อง ,"piano : pass 
+free text save ได้                           10/11/2025.                                   aum : pass",
+2025/09/29,Bug,,product / order,มีการทดลองสร้าง Product ขึ้นชื่อว่า CPU  รหัสสินค้า cp001 แล้วก็ทำบิลซื้อสินค้าเข้าแล้ว แต่พอจะสร้าง order ในการขายสินค้ากลับไม่พบชื่อสินค้าครับ, product.mp4,,1) High,Done,pass,,เป็น bug เดียวกับข้อนี้ 20250909_IPS_UAT 2,เส้น search ต้องให้ backend lookup SKU มาเพิ่มอีกที,aum : pass,
+2025/09/27,Q&A,,กรณีที่ต้องการทำลา,รบกวนช่วยแสดงวิธีการทำลาโดยพนักงาน login เข้าไปทำเองให้ดูด้วยครับ,,https://www.loom.com/share/067024c0492945e4a372829b7d8444d4?sid=f3600e9c-bc64-45fc-b257-53c59ba74882,1) High,Done,pass,,https://www.loom.com/share/067024c0492945e4a372829b7d8444d4?sid=f3600e9c-bc64-45fc-b257-53c59ba74882,,aum : pass,
+2025/09/27,Q&A,,กรณีที่ี่ต้องการทำ Present form,รบกวนช่วยแสดงวิธีการลืมสแกนหน้าเข้าโดยพนักงาน login เข้าไปทำเองให้ดูด้วยครับ,,https://www.loom.com/share/ca7f65a63f414629bdf4c71b73ac92c2?sid=3db9ca2a-a231-4344-8a4c-8b89cc177068,1) High,Done,pass,,https://www.loom.com/share/ca7f65a63f414629bdf4c71b73ac92c2?sid=3db9ca2a-a231-4344-8a4c-8b89cc177068,,aum : pass,
+2025/09/27,Q&A,,Student  ,ระหว่าง upload student information กับ upload Student Academic แตกต่างกันยังไงบ้างครับ,student.jpg,,1) High,Done,pass,,"Student Info = ข้อมูลนักเรียนจาก School Base
+Academic = คืออัปโหลด Academic year ค่ะ
+
+ปล.
+ตอนนี้จะไม่มีการ upload student academic ใน feature student แต่จะมีการเพิ่ม student academic ที่ feature classroom แทน",Ioun: ใช้แค่ student info ที่เหลือจะทำที่ feature academic (13/11/25 17.23),"ใช้แค่ student info
+ที่เหลือจะทำที่ feature academic",
+2025/09/29,Q&A,,stationary-inventory,หลังจากทำบิลนำเข้าแล้ว มันจะมีเด้งไปคนหา approve ยังไงครับ,stationary-inventory.jpg,,1) High,Done,pass,,แจ้งเตือนทาง Email ค่ะ ปลายทางผู้รับจะเห็นปุ่มให้กด Approve ค่ะ,,aum : pass,
+2025/09/29,Q&A,,Employee /Attendance,ที่คุณนกเคยขอให้ช่วยทำสรุป ว่า วันนี้มีใครขาดงานบ้าง จะแสดงตรงไหนครับ,,,1) High,Done,pass,,ดูตรง leave request หรือ download CSV และ PDF ออกมาได้ค่ะ https://ips.dev.infrabrik.com/leave-request,,aum : pass,
+2025/10/02,Bug,,Inventory,Minumum stock แสดงสถานะไม่ถูก set ไว้ 10 แต่แสดงสถานะ running out ตอน 40,Screenshot 2568-10-02 at 09.24.59.png,,1) High,Done,pass,,"BE: recheck updated status by current stock with minimum stock
+FE: recheck send values to api.","ทุกๆตัวใน table นี้นั้นเป็น running out เหมือนกันหมด เพราะตั้ง minimum ไว้ที่ 10
+https://drive.google.com/file/d/1NX-LorBC5yn3aRdMNQ7v3gC6J9ZfjfR8/view?usp=sharing",aum : pass,
+2025/10/02,Bug,,leave request,ไม่สามารถกรองข้อมูลได้,Screenshot 2568-10-02 at 08.16.28.png,ต้องสามารถกรองข้อมูลได้ตามตัวเลือก,1) High,Done,pass,"Test @ 02/10/25, worked",,,aum : pass,
+2025/10/02,Bug,,Permission,Permission ตอนนี้เหมือนกันหมดในอีเมลทดสอบ,,,1) High,Done,pass,2025/10/02,"สามารถเข้าไปอัพเดท permission ของ employee ได้ที่หน้า setting -> permission ครับ
+
+ตอนนี้ทางทีมได้ทำการย้าย employee ตามเมลที่ระบุไปไว้ที่ employee permission ที่สร้างไว้ในหน้า permission เรียบร้อยแล้วครับ",,aum : pass,
+2025/10/07,Bug,,academic (education),"Duplicate bug
+- กด duplicate ตรง classroom แล้ว bug",Screenshot 2568-10-07 at 09.53.45.png,,1) High,Done,pass,,,ready on DEV,aum : pass,
+2025/09/27,Bug,,gear/setting,"สำหรับการตั้งค่า ที่ setting ของโรงเรียน สาขา2 ชื่อที่อยู่จะต่างกัน 
+มันจะเป็นยังไงบ้างครับ พอดีมันเด้งเลยดูไม่ได้เลยครับตามข้างบน
+
+ทำแบบนี้แล้วเจอ
+- ลบรูป 
+- กรอกข้อมูลใหม่
+- รูปอัปเสร็จ
+- ข้อมูลเด้งกลับ",https://www.loom.com/share/983474c55ef0443eab1c224c26de5a52?sid=82fdaaac-b69b-4730-bc08-7f8f20d05d12,,1) High,Done,pass,2025/09/27,"ตอนนี้ setting เป็น setting all อยู่ค่ะ เดี๋ยวปรับให้แก้ไขได้ตามสาขา
+
+- ลบ cover image ทิ้ง
+- เมื่อ update company setting แล้ว ต้อง update org data ตรงล่างขวาด้วย",,aum : pass,
+2025/09/10,Bug,,login ,login ด้วย email ของ pandey.suryansh@ips.ac.th เลือก Admin แล้วก็ยังเข้าไม่ได้,,,1) High,review,to do,,แก้เรียบร้อยแก้โดยการแยกอีกเมล,,,
+2025/09/11,Bug,"FE, BE",Product,"ตอนกด Add สินค้าด้วยรหัส ตรง [Order Detail] ไม่แสดงพิมพ์แค่ 1 ตัวอักษรก็เด้งแล้ว พอกดเข้าด้านใน 
+ถึงจะสามารถใส่รหัสได้ แต่ต้องเป็นรหัสเต็มเท่านั้น *** วันนี้ที่เทสใน 1 ไฟล์มีบิลหลายเลขที่รวมกันเลยครับ", order.mp4,,1) High,Todo,fail ,,อันนี้เป็น bug ไปดักให้สินค้าสร้างใหม่เป็น out of stock เลยไม่แสดง,"เพิ่มเส้น search กำลังให้ backend 
+flow ในการ search สร้าง product list >> add สินค้า ใน inventory >> ค่อย search หาในหน้า order ",https://drive.google.com/file/d/1yhx8rckazk70zqLj5JuS3NmPd1ZZdAAK/view?usp=sharing,
+2025/10/02,CR,"FE, BE",stationary-inventory,ต้องสามารถเลือกสินค้า stock 0 มา withdraw ได้,Screenshot 2568-10-02 at 09.17.56.png,,2) Meduim,Done,pass,,"เช็ค logic ว่ามีการตัด stock อะไรตอนเที่ยงคืนไหม
+
+case stationary อย่างเดียว
+- ตอนกดสร้าง ไม่ต้องตัด stock (ตัด stock ตอน status success เท่านั้น)
+- ถ้าสินค้าใน stock น้อยกว่าสินค้าที่ต้องการเบิก จะปรับ status เป็น success ไม่ได้","ต้องให้ backend แก้ ให้ Order ติดลบได้ก่อน ตอนนี้ ติด validate backend
+
+แก้ไขล่าสุด
+- ตอนสร้าง withdraw ไม่ต้องตัด stock",https://drive.google.com/file/d/15wXDkerzINoLwA5M0ak5inssa-f7gSCV/view?usp=sharing,
+2025/10/02,CR,,employee profile,ในมุม Admin ไม่ควรเลือกตัวเองเป็น approval ได้,Screenshot 2568-10-02 at 17.44.18.png,,2) Meduim,Done,pass,,,ready on DEV,aum : pass,
+2025/10/07,CR,,academic (education),เพิ่ม filter และแก้ไขหัวข้อตาราง,Screenshot 2568-10-07 at 09.58.33.png,เพิ่ม filter และแก้ไขหัวข้อตาราง,2) Meduim,Done,pass,,,,aum : pass,
+2025/10/07,CR,,form,Room > แก้เป็น dropdown และมี option สุดท้ายคือห้องอื่นๆ และห้องอื่นๆ สามารถซ้ำได้,,"ขอชื่อห้องจากคุณโจ้ thepsintopskul.thananate@ips.ac.th
+1.Auditorium
+2.Assembly Area
+3.Meeting Room (Office)
+4.Open Court
+5.Canteen
+6.Runing track",2) Meduim,Done,pass,,"1.Auditorium -> เวลาห้ามซ้ำ
+2.Assembly Area  -> เวลาห้ามซ้ำ
+3.Meeting Room (Office)  -> เวลาห้ามซ้ำ
+4.Open Court  -> เวลาห้ามซ้ำ
+5.Canteen  -> เวลาห้ามซ้ำ
+6.Runing track  -> เวลาห้ามซ้ำ
+7.Other -> ซ้ำได้",,aum : pass,
+2025/10/07,CR,FE,form (BE),Room form > ห้ามซ้ำ > ห้ามคล่อม,,"roomBookingForm เวลาจองห้ามซ้ำกัน ห้ามคล่อมกัน ยกเว้นห้องอื่นๆ
+ห้องห้ามซ้ำ (1-6 , ดูจากว่า approved ก่อนได้ก่อน)
+1.Auditorium
+2.Assembly Area
+3.Meeting Room (Office)
+4.Open Court
+5.Canteen
+6.Runing track
+7.other Room (ซ้ำได้)",2) Meduim,Done,pass,,"(1-6 , ดูจากว่า approved ก่อนได้ก่อน)
+1.Auditorium
+2.Assembly Area
+3.Meeting Room (Office)
+4.Open Court
+5.Canteen
+6.Runing track
+7.other Room (ซ้ำได้)
+conditionคือ
+- employee ส่ง form มาซ้ำได้ แต่คนapproveอันไหนก่อน อันอื่นก็โดนcancleไป
+- ต้องให้คน approve ก่อนค่ะ ถ้าสถานะเป็น pending ยังไม่ approve สร้างซ้ำได้อยู่ค่ะ","การจองเวลาห้ามซ้ำกัน ให้ backend เป็นคนเช็คเวลาห้ามซ้ำกัน ยกเว้นห้องอื่นๆสามารถซ้ำกันได้
+(backend check validate เมื่อมีสถานะเข้ามาเป็น `APPROVE`)",aum : pass,
+2025/10/02,CR,"FE, BE",order,PDF > Sale Report ของแต่ละวัน > PDF / Logic ดึงมาเฉพาะ Internal Oder,product for sale ตัวอย่าง Report,report product ที่ขายได้ทั้งหมด,2) Meduim,In Progress,,,"อธิบายรายงาน หลังราคาสินค้าคือเลข stock ทั้งหมด
+- BF Stock ตั้งต้นตอนแรกในระบบ
+- Import จำนวนที่นำเข้าสิ้นค้า (ณ วันที่ออกรายงาน)
+- Sale จำนวน stock ที่ขายของ
+- Internal จำนวน stock ที่คนข้างในเบิก
+- CN จำนวน stock ที่คืน
+
+
+- Broken (ไม่มีให้ไปรวมกับ CN)","เพิ่มปุ่ม download pdf ที่หน้า product inventory
+- filter data ตาม row ที่มองเห็นในหน้า UI และสามารถกรอง date range ได้
+
+field
+- productID -> productID ใน inventory ตัวนั้น
+- code -> product code (SKU)
+- productName -> ชื่อสินค้า
+- Price -> ราคาของสินค้าชิ้นนั้น/ชิ้น
+a
+- CN -> คือจำนวนรวมสินค้าที่ถูก cancel ใน order และถูก return เข้า inventory (จำนวนรวมจาก order โดย filter จาก order createdAt ใน date range ที่เลือก)
+- Internal -> คือจำนวนรวมสินค้าที่ถูกขายใน order และติ๊กเลือกเป็น internal (จำนวนรวมจาก order โดย filter จาก order createdAt ใน date range ที่เลือก)
+- sale -> คือจำนวนรวมสินค้าที่ถูกขายใน order และไม่ได้ติ๊กเลือกเป็น internal (จำนวนรวมจาก order โดย filter จาก order createdAt ใน date range ที่เลือก)",,
+2025/10/02,CR,,order,Order ตอนกดเลือกอยากให้กด Enter แทนการย้ายมากดปุ่ม Add,Screenshot 2568-10-02 at 09.37.49.png,ous,3) Low,Blocked,,,,conflict กับ logic เดิม,,
+2025/10/02,Q&A,,employee,ถ้าเกิดมีการแก้ไขวันหยุดในปีการศึกษา ต้องกลับไปอัปเดทข้อมูลคนที่เคยทำลาไว้หรือไม่?,,,3) Low,Blocked,,,,,,
+2025/10/07,CR,,"academic (education),
+Student Profile",เพิ่ม field ข้อมูลผู้ปกครอง และต้องแสดงตอน export ออกมาด้วย,,"student profile -> import เพิ่ม field ชื่อผู้ปกครอง, เบอร์โทร
+
+(ขอข้อมูลเพิ่มว่าต้องการข้อมูลผู้ปกครองอะไรบ้าง)",3) Low,Blocked,,,,,,
+2025/09/27,Q&A,,gear/setting,ถ้าต้องตั้งทั้ง 2 สาขา พอจะมีปุ่มโคลนบ้างรึเปล่าครับ,,,3) Low,Cancel,,,ไม่มีค่ะ คิดว่าไม่จำเป็นต้องมี เพราะไม่ได้ setting บ่อยค่ะ,,,
+2025/09/27,Q&A,,,พอจะทำให้มันเด้งไปฟิลด์ที่ขาดการกรอกข้อมูลได้เลยไหมครับ ไม่งั้นต้อ,2025-09-27_19-10-01.jpg,,3) Low,Cancel,,,ไม่สามารถทำได้ค่ะ ตัวโปรแกรมเดิมเราไม่ได้ design ไว้แบบนี้ค่ะ,,,
+2025/09/27,Q&A,,form/cctv form,"ในกรณีที่เป็น user แล้วต้องกรอกชื่อตัวเอง ผมว่ามันแปลก ๆ นะครับ 
+ควรเด้งชื่อเองเลยไหมครับ (ตออนสร้างผมใช้ email ตัวเองและเข้า 
+Krungthonburi ครับ)",CCTV form.jpghttps://drive.google.com/file/d/1kk3KarfyQeU_OEJWK2_zJdqF5e4t2ZJL/view?usp=sharing,,3) Low,Cancel,,,"ในกรณีที่เป็น Admin จะไม่สามารถทำได้ค่ะ และ makesense อยู่แล้วเพราะเป็นการกรอกให้คนอื่น
+แต่ในกรณีที่เป็นของตัวเองควรแสดงแต่ชื่อตัวเองค่ะ",,,
+,Q&A,,form/booking form,"ในกรณีที่เป็น user แล้วต้องกรอกชื่อตัวเอง ผมว่ามันแปลก ๆ นะครับ 
+ควรเด้งชื่อเองเลยไหมครับ (ตออนสร้างผมใช้ email ตัวเองและเข้า 
+Krungthonburi ครับ)",,,3) Low,Cancel,,,"ในกรณีที่เป็น Admin จะไม่สามารถทำได้ค่ะ และ makesense อยู่แล้วเพราะเป็นการกรอกให้คนอื่น
+แต่ในกรณีที่เป็นของตัวเองควรแสดงแต่ชื่อตัวเองค่ะ",,,
+2025/09/27,Q&A,,form,โดยปกติใน form ที่แจ้งไป ต้องการ Stationnery form ด้วยนะครับ โดยที่คนที่ต้องการใช้ จะเป็นคนเบิกสินค้าครับ,JD HR.jpg,,3) Low,Cancel,,,Stationary form อยู่ในเมนู stationary ค่ะ อยู่ตรง Withdraw https://ips.dev.infrabrik.com/stationary-withdraw เพราะปกติเป็นการ Widraw ซึ่งตรงนี้คุยกันมาแต่เริ่มโปรเจคแ้วค่ะ ว่าเราจะแยก form ไปตาม function ที่มันควรอยู่,,,
+2025/10/02,CR,,Product,ตอนขายของแล้ว ยังต้อง download บิลโหลดบิลเสร็จแล้วต้องเปิดไฟล์แล้วสั่งพิมพ์อีกครั้ง, print bill.mp4,ให้ขึ้น download pdf (original & copy) ทันที หลังยิง api create order สำเร็จ,3) Low,Done,pass,,"เคสนี้ไม่ใช้ bug เป็น req เพิ่มเติม
+
+-------
+ปัญหา (ขั้นตอนการปริ้นบิลหลังจากสร้าง order ใหม่ใช้ action เยอะเกินไป)
+- สร้าง order
+- กดเข้าหน้า edit order ที่สร้าง หรือกด print ที่หน้าตาราง table
+- กด button ปริ้นบิล -> เปิด modal เลือก original กับ copy
+- กด comfirm เพื่อ download
+- กดเปิดไฟล์ pdf ที่ download
+- กดปริ้น","solution ที่พี่คิดไว้คือ
+1. กดสร้าง order
+2. กรอกข้อมูลให้ครบถ้วน
+3. กด submit เพื่อส่งค่า value ที่เก็บใน formik ไปยิง create ที่ api
+4. เช็คว่ายิง api สำเร็จหรือไม่
+5. ถ้าเช็ค response status = 200 (ยิง api ผ่าน) ให้มันทำการ download pdf ทั้งแบบ original และ copy ต่อเลยทันที (ถ้าไม่ผ่านต้องไม่ download pdf) โดยใช้ข้อมูลจาก formik (ไม่ต้องใช้ api เพราะเรามี data จาก value ที่เก็บอยู่ใน formik ก่อนที่เราจะ router.push กลับไปที่หน้า table)",รอ Merge,
+2025/10/02,CR,,order,payment method > bank transfer ให้ default จำนวน และ bank name ไม่จำเป็นต้องกรอก,Screenshot 2568-10-02 at 09.42.50.png,,3) Low,Done,pass,,,ready on DEV,รอ Merge,
+2025/10/02,CR,,order,"payment method ให้ default เป็น cash
+เปลี่ยนคำ Income > Cash Received",Screenshot 2568-10-02 at 09.39.19.png,,3) Low,Done,pass,,,ready on DEV,รอ Merge,
+2025/10/02,CR,FE,order,behavior ตอนกรอกเลขไม่ต้อง + เลขตาม เวลา scroll mouse,Screenshot 2568-10-02 at 09.47.02.png,,3) Low,Done,pass,,,ready on DEV,aum:pass,
+2025/10/02,CR,,oder,Default check copy/original ตอนกด print,Screenshot 2568-10-02 at 09.51.18.png,,3) Low,Done,pass,,,,,
+2025/10/07,CR,,academic (education),เพิ่มรายงานดูตามนักเรียน เช่น นักเรียน 1 คนเรียนวิชาอะไรบ้าง,Screenshot 2568-10-07 at 10.26.23.png,"table export PDF ->
+- export information PDF -> ตอนกดแล้วจะแยกออกมาเป็น 3 ไฟล์ fix_course, summer, term
+- export payment PDF -> ดาวโหลด pdf payment ",3) Low,Done,pass,,,,piano pass                                    aum : pass,
+2025/10/07,CR,,form,purchasing form > เป็น freetext (product),,เปลี่ยน search product name เป็น free text (ไม่ต้องเก็บ id product),3) Low,Done,pass,,,ฝาก backend เพิ่มรับ field productName และเอา required  prductIDออก,piano pass.                                      aum : pass,
+2025/10/14,Bug,,Student,ในส่วนที่ต้องนำเข้าข้อมูลนักเรียนจาก SchoolBase ขาดข้อมูลของผู้ปกครองไปครับ,,same with row 42 (เพิ่ม field ข้อมูลผู้ปกครอง และต้องแสดงตอน export ออกมาด้วย),3) Low,Done,pass,,,ต้องแก้ไขการ import student,,
+2025/10/07,CR,,order,CN ให้มีการคืนสินค้า + stock คืน,,"เพิ่ม status ชำระแล้ว, ยกเลิก
+เมื่อสร้างออร์เดอร์เสร็จจะเป็น -> ชำระแล้ว
+สามารถปรับจาก ชำระแล้ว เป็น ยกเลิกได้
+
+เมื่อยกเลิกแล้วจะคืน stock ของสินค้าที่อยู่ในออร์เดอร์นั้นๆ",3) Low,Done,pass,,"FE
+- เพิ่ม UI status (เพิ่ม status ในหน้า table และหน้า edit, หน้า create ไม่ต้องโช status)
+- สถานะจะเป็นชำระแล้วตั้งแต่ตอนกด create order
+- สามารถปรับ status จาก ชำระแล้ว เป็น ยกเลิก ได้ (ถ้าเป็น ยกเลิก แล้วจะปรับกลับเป็น ชำระแล้ว ไม่ได้อีก)
+- ตอนกดปรับ status เป็นยกเลิกให้ขึ้น modal แจ้งเตือนก่อนปรับ status และบอกรายละเอียดว่าจะคืน stock สินค้ากลับเข้า inventory และจะไม่สามารถย้อนกลับสถานะได้
+- ถ้าสถานะเป็น ยกเลิก แล้ว จะไม่สามารถแก้ไขและบันทึกข้อมูลภายใน order นั้นๆได้ (disabled)
+
+BE
+- เพิ่ม field status
+- เมื่อสร้าง order แล้วจะมีการตัด stock ใน inventory ของสินค้าที่อยู่ใน order นั้นๆ
+- ถ้า order status เปลี่ยนเป็น ยกเลิก ต้องคืน stock กลับไปที่ inventory ของสินค้านั้นๆด้วย",ให้ backend เช็คสถานะ แล้วบวกสินค้าคืนให้หลังจากมีการคืนสินค้า ,piano pass,
+2025/10/02,CR,FE,,Approval บาง feature มีตัวเลือก บาง feature ไม่มี แนะนำให้ทำเป็น dropdown แล้วเลือกเอา แต่ default เป็นตามที่ตั้งค่าไว้ที่ employee profile,,"เปลี่ยนเป็น dropdown แต่ default เป็นตามที่เลือกไว้ (ต้องลองกับ type user)
+- CCTV form
+- Purchase form
+- Request form
+- Room booking form",3) Low,Done,pass,,- CCTV form : testไม่ได้เพราะสร้างformไม่ได้                                          - Room booking form : testไม่ได้เพราะสร้างformไม่ได้                                                           ,,aum : pass,
+2025/10/07,CR,,academic (education),เพิ่ม column วันที่ใบเสร็จในรายงาน (PDF),,,3) Low,Done,pass,,,,,
+2025/11/06,Bug,,product,ในยอดการขำระด้วยการโอนเงิน ไม่สามารถใส่จุดได้, จ่ายเงินด้วยการโอน.mp4g,,3) Low,Done,pass,,,,,
+2025/10/07,Bug,,student/Student Profile,"ไม่สามารถอัพข้อมูลได้ 
+1.โดยไฟล์ตัวอย่างที่นำมาใช้ได้มาจากคุณมะตอย
+อยากแก้ไขข้อมูลนักเรียนด้วยครับ โดยใช้ไฟล์ที่นำส่งให้นะครับ
+2. เนื่องจากยังไม่มีข้อมูลนักเรียน เลยยังไม่ได้ทดสอบระบบนี้เลยครับ",  upload student data from schoolbase.mp4,ขอให้มีข้อมูลตามไฟล์ในลิงค์นะครับ : https://docs.google.com/spreadsheets/d/1gnj-z0QlHAlRx6ZtvajYHQte5CdQ_gTr/edit?usp=drive_link&ouid=115485672162151447829&rtpof=true&sd=true,3) Low,review,to do,,ต้องใช้ format template ที่มีให้มา apply ใช้,Ioun: เช็คล่าสุดสามารถใช้งานได้ปกติ (13/11/25 17.23),"Piano : fail ยังอัพโหลดไม่ได้.                
+https://drive.google.com/file/d/1WYWIUfA5n6m9E6_BnBAHFJw9AI6xHqSm/view?usp=drive_link                                    aum : fail https://drive.google.com/file/d/1tVanngRmOce1dJ-Aaa0GpXK3GzK-oIRJ/view?usp=drive_link",
+2025/10/07,CR,FE,form,เพิ่ม download pdf ต่อรายการได้,Blank FORM,"export pdf by id
+classroom
+แยก 2 อัน info, payment
+feature อื่นๆ (form)
+- export by id",3) Low,In Progress,to do,,,,aum : format ไม่ตรงกับที่ลูกค้าให้มา,
+2025/11/17,,,student,ไม่สามารถอัพข้อมูลได้,"   can not upload data.mp4
+",,,,,,,,,
+,,,,ไฟล์ฐานข้อมูลของนักเรียนจากข้อบน ที่แจ้งว่าอัพโหลดไม่ได้,student-profile-template (1).csv,,,,,,,,,
+2025/11/26,Q&A,,Student,,,,,,,,,,,
+,Bug,,,,,,,,,,,,,
+,CR,,,,,,,,,,,,,
+,Bug,FE,,,,,,,,,,,,
+,CR,,,,,,,,,,,,,
+,Bug,,,,,,,,,,,,,
+,CR,FE,,,,,,,,,,,,
+,Bug,,,,,,,,,,,,,
+,CR,,,,,,,,,,,,,
+,Bug,FE,,,,,,,,,,,,
+,CR,,,,,,,,,,,,,
