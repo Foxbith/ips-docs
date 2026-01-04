@@ -104,6 +104,48 @@ This project plan defines the activities, schedule, resources, and approach for 
 
 ## 4. Schedule
 
+### 4.0 Gantt Chart Overview
+
+```mermaid
+gantt
+    title IPS Project Timeline (Phase 1 & 2)
+    dateFormat YYYY-MM-DD
+
+    section Phase 1 - Data Collection
+    Requirement Gathering       :done, req, 2024-08-06, 2024-08-09
+    Data Structure Planning     :done, data, 2024-08-07, 2024-08-16
+
+    section Phase 1 - UX/UI Design
+    Login Design                :done, login, 2024-08-19, 2024-08-30
+    Employee Menu Design        :done, emp, 2024-08-19, 2024-08-30
+    Student Menu Design         :done, stu, 2024-08-23, 2024-08-30
+    Asset Menu Design           :done, asset, 2024-08-23, 2024-08-30
+    Form Menu Design            :done, form, 2024-08-23, 2024-08-30
+    Product Menu Design         :done, prod, 2024-09-02, 2024-09-13
+    Stationary Menu Design      :done, stat, 2024-09-02, 2024-09-13
+    Setting Menu Design         :done, set, 2024-09-02, 2024-09-13
+
+    section Phase 1 - UI Reviews
+    UI Review 1                 :milestone, done, m1, 2024-09-16, 0d
+    UI Review 2                 :milestone, done, m2, 2024-10-01, 0d
+    UI Review 3                 :milestone, done, m3, 2024-10-15, 0d
+
+    section Phase 1 - Development
+    Classroom Payment & Menu    :done, dev1, 2025-05-02, 2025-06-19
+    Student, Payment, Export    :done, dev2, 2025-06-20, 2025-08-11
+
+    section Phase 1 - Testing & Deployment
+    UAT 2                       :done, uat2, 2025-09-09, 2025-09-22
+    Bug Fix & Final UAT         :done, bugfix, 2025-08-14, 2025-08-29
+    Production Deployment       :done, deploy, 2025-08-29, 2025-09-05
+    Phase 1 Complete            :milestone, done, p1done, 2025-09-05, 0d
+
+    section Phase 2 - Enhancement
+    Academic Feature Fix        :active, acad, 2025-12-01, 2026-01-31
+    Academic UAT                :acaduat, 2026-02-01, 2026-02-14
+    Phase 2 Deployment          :p2deploy, 2026-02-15, 2026-02-21
+```
+
 ### 4.1 UX/UI Design Schedule
 | No. | Task | Owner | Start Date | Due Date | Status |
 |-----|------|-------|------------|----------|--------|
